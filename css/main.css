@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.logo{
+    height: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.bck-img{
+    position: absolute;
+    top: -5px;
+    width: 100%;
+    height: 110vh;
+    background-image: url(https://images.macrumors.com/t/QhvTK_o0rh1bWoJgN_qR9Oq2LOw=/1600x0/article-new/2021/09/iPhone-14-Hole-Punch-Feature.jpg);
+}
+.container{
+    background-color: #15F17A;
+    height: 110vh;
+    width: 100%;
+    position: absolute;
+    top: -5px;
+
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    text-align: center;
+}
+img{
+    height: 100px;
+
+}
+h2{
+    font-size: 14px;
+}
+p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.search-img{
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+}
+input{
+    height: 20px;
+    width: 100px;
+}
+.two{
+    background-color: #22AD8C;
+}
+.white{
+    color: white;
+}
+.three{
+    background-color: #ADADAD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.img-box{
+    text-align: center;
+}
+.text{
+    font-size: 16px;
+}
+@media screen and (max-width:700px) {
+    nav{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .top{
+        margin-top: 130px;
+    }
+    .three{
+        flex-direction: column;
+        justify-content: start;
+        height: 200vh;
+        
+    }
+    .img-box{
+        margin-top: 200px;
+        height: 5px;
+    }
+}
+@media screen and (min-width:1200px){
+    img{
+        height: 200px   ;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    a{
+        font-size: 25px;
+    }
+    .support-item{
+        height: 150px;
+    }
+}
